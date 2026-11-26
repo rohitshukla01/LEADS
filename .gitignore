@@ -1,0 +1,37 @@
+# secrets: never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# dependencies and builds
+node_modules/
+.next/
+out/
+.venv/
+.venv-skill/
+venv/
+__pycache__/
+*.pyc
+
+# outputs written by the evaluation scripts
+reproduce_paper/benchmark/results/item_verdicts_replay.jsonl
+reproduce_paper/benchmark/results/item_verdicts.jsonl
+reproduce_paper/benchmark/results/replay_calls.jsonl
+reproduce_paper/benchmark/results/judge_calls.jsonl
+reproduce_paper/benchmark/results/ragas_scores.csv
+
+# system and editor files
+.DS_Store
+~$*
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# your own copies of the papers
+LLM_Papers/
+
+# reproduce.sh environments, logs and redrawn figures
+.reproduce/
+reproduced_figures/
