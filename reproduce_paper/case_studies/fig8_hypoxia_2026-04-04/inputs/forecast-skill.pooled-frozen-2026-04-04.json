@@ -1,0 +1,516 @@
+{
+ "meta": {
+  "schema": 2,
+  "model": "glm_aed_flare_v3",
+  "baseline": "climatology",
+  "metric": "CRPSS (%) = 100 x (1 - sum CRPS(model) / sum CRPS(climatology)), strictly paired on (reference date, target date, depth), each pair counted once (earliest submission), pooled over every scored forecast",
+  "site": "fcre",
+  "depth_m": 1.6,
+  "max_day": 21,
+  "default_days": 7,
+  "ci": {
+   "level": 95,
+   "method": "block bootstrap over issue dates",
+   "block_days": 14,
+   "resamples": 10000,
+   "seed": 20261015
+  },
+  "record_through": "2026-04-03",
+  "source": "VERA4cast scores archive, daily (P1D)",
+  "inputs": {
+   "Temp_C_mean": {
+    "sha256": "f7d5bdd60741603ce62397ec3616736e24cb024677bf842b948a18797a02c103",
+    "pairs": 19678
+   },
+   "DO_mgL_mean": {
+    "sha256": "9cb9d54d84f4c8a360022aff95c34ef0acce30ac4f8431bb3098854fa451d6a9",
+    "pairs": 17992
+   },
+   "Chla_ugL_mean": {
+    "sha256": "5f0a77c730957508da324896833cab8c4f1a0dd430e22f98451ea95447652497",
+    "pairs": 15249
+   }
+  },
+  "software": {
+   "duckdb": "1.5.4",
+   "numpy": "2.3.5"
+  },
+  "note": "Past skill (track record) of glm_aed_flare_v3 vs climatology at FCR 1.6 m, by forecast day 1-21. BVR is not scored.",
+  "frozen_as_of": "2026-04-04",
+  "frozen_by": "replay_kit/build_pooled_skill_asof.py (scripts/build-skill-table.py method, target dates <= record_through)",
+  "ci_bound_warnings": [
+   "Temp_C_mean day 14: paper label 2% vs app label 3% (CRPSS 2.4974)",
+   "Chla_ugL_mean day 9: paper label 22% vs app label 23% (CRPSS 22.4967)"
+  ]
+ },
+ "fcre": {
+  "Temp_C_mean": {
+   "coverage": {
+    "from": "2024-09-25",
+    "to": "2026-04-03"
+   },
+   "runs": 518,
+   "days": [
+    {
+     "day": 1,
+     "crpss": 38.26,
+     "lo": 16.42,
+     "hi": 55.2,
+     "n": 505
+    },
+    {
+     "day": 2,
+     "crpss": 34.66,
+     "lo": 14.65,
+     "hi": 50.58,
+     "n": 498
+    },
+    {
+     "day": 3,
+     "crpss": 30.63,
+     "lo": 11.91,
+     "hi": 45.81,
+     "n": 496
+    },
+    {
+     "day": 4,
+     "crpss": 28.87,
+     "lo": 11.7,
+     "hi": 43.16,
+     "n": 497
+    },
+    {
+     "day": 5,
+     "crpss": 26.95,
+     "lo": 10.27,
+     "hi": 40.57,
+     "n": 493
+    },
+    {
+     "day": 6,
+     "crpss": 24.79,
+     "lo": 7.69,
+     "hi": 38.49,
+     "n": 491
+    },
+    {
+     "day": 7,
+     "crpss": 23.07,
+     "lo": 6.06,
+     "hi": 36.78,
+     "n": 488
+    },
+    {
+     "day": 8,
+     "crpss": 19.85,
+     "lo": 2.49,
+     "hi": 33.64,
+     "n": 484
+    },
+    {
+     "day": 9,
+     "crpss": 16.42,
+     "lo": -1.17,
+     "hi": 30.39,
+     "n": 481
+    },
+    {
+     "day": 10,
+     "crpss": 13.39,
+     "lo": -3.79,
+     "hi": 27.67,
+     "n": 479
+    },
+    {
+     "day": 11,
+     "crpss": 10.74,
+     "lo": -7.03,
+     "hi": 25.57,
+     "n": 478
+    },
+    {
+     "day": 12,
+     "crpss": 7.79,
+     "lo": -10.14,
+     "hi": 23.03,
+     "n": 475
+    },
+    {
+     "day": 13,
+     "crpss": 5.6,
+     "lo": -12.32,
+     "hi": 20.89,
+     "n": 470
+    },
+    {
+     "day": 14,
+     "crpss": 2.5,
+     "lo": -15.58,
+     "hi": 18.19,
+     "n": 468
+    },
+    {
+     "day": 15,
+     "crpss": -0.43,
+     "lo": -18.84,
+     "hi": 15.85,
+     "n": 469
+    },
+    {
+     "day": 16,
+     "crpss": -3.64,
+     "lo": -22.4,
+     "hi": 13.16,
+     "n": 468
+    },
+    {
+     "day": 17,
+     "crpss": -6.14,
+     "lo": -24.79,
+     "hi": 10.87,
+     "n": 465
+    },
+    {
+     "day": 18,
+     "crpss": -8.6,
+     "lo": -26.91,
+     "hi": 8.5,
+     "n": 460
+    },
+    {
+     "day": 19,
+     "crpss": -11.34,
+     "lo": -29.33,
+     "hi": 5.65,
+     "n": 458
+    },
+    {
+     "day": 20,
+     "crpss": -13.53,
+     "lo": -31.61,
+     "hi": 3.62,
+     "n": 455
+    },
+    {
+     "day": 21,
+     "crpss": -16.45,
+     "lo": -33.97,
+     "hi": 0.69,
+     "n": 453
+    }
+   ]
+  },
+  "DO_mgL_mean": {
+   "coverage": {
+    "from": "2024-10-03",
+    "to": "2026-04-03"
+   },
+   "runs": 466,
+   "days": [
+    {
+     "day": 1,
+     "crpss": 26.0,
+     "lo": 4.6,
+     "hi": 41.99,
+     "n": 455
+    },
+    {
+     "day": 2,
+     "crpss": 18.71,
+     "lo": -4.13,
+     "hi": 35.74,
+     "n": 450
+    },
+    {
+     "day": 3,
+     "crpss": 12.22,
+     "lo": -11.28,
+     "hi": 30.02,
+     "n": 449
+    },
+    {
+     "day": 4,
+     "crpss": 7.76,
+     "lo": -16.58,
+     "hi": 25.77,
+     "n": 451
+    },
+    {
+     "day": 5,
+     "crpss": 2.91,
+     "lo": -22.39,
+     "hi": 21.36,
+     "n": 448
+    },
+    {
+     "day": 6,
+     "crpss": -0.03,
+     "lo": -26.3,
+     "hi": 19.05,
+     "n": 446
+    },
+    {
+     "day": 7,
+     "crpss": -3.3,
+     "lo": -30.08,
+     "hi": 16.18,
+     "n": 443
+    },
+    {
+     "day": 8,
+     "crpss": -7.06,
+     "lo": -33.93,
+     "hi": 12.63,
+     "n": 440
+    },
+    {
+     "day": 9,
+     "crpss": -9.56,
+     "lo": -36.58,
+     "hi": 10.54,
+     "n": 438
+    },
+    {
+     "day": 10,
+     "crpss": -11.49,
+     "lo": -38.35,
+     "hi": 8.42,
+     "n": 437
+    },
+    {
+     "day": 11,
+     "crpss": -12.96,
+     "lo": -39.96,
+     "hi": 7.11,
+     "n": 437
+    },
+    {
+     "day": 12,
+     "crpss": -14.73,
+     "lo": -41.54,
+     "hi": 5.31,
+     "n": 435
+    },
+    {
+     "day": 13,
+     "crpss": -16.21,
+     "lo": -43.44,
+     "hi": 4.2,
+     "n": 431
+    },
+    {
+     "day": 14,
+     "crpss": -17.23,
+     "lo": -45.06,
+     "hi": 3.55,
+     "n": 430
+    },
+    {
+     "day": 15,
+     "crpss": -17.64,
+     "lo": -45.25,
+     "hi": 3.28,
+     "n": 432
+    },
+    {
+     "day": 16,
+     "crpss": -18.4,
+     "lo": -46.12,
+     "hi": 2.54,
+     "n": 431
+    },
+    {
+     "day": 17,
+     "crpss": -18.1,
+     "lo": -44.84,
+     "hi": 2.31,
+     "n": 430
+    },
+    {
+     "day": 18,
+     "crpss": -18.94,
+     "lo": -45.45,
+     "hi": 1.63,
+     "n": 427
+    },
+    {
+     "day": 19,
+     "crpss": -19.79,
+     "lo": -46.27,
+     "hi": 1.09,
+     "n": 427
+    },
+    {
+     "day": 20,
+     "crpss": -21.84,
+     "lo": -48.29,
+     "hi": -0.64,
+     "n": 424
+    },
+    {
+     "day": 21,
+     "crpss": -23.06,
+     "lo": -49.21,
+     "hi": -2.16,
+     "n": 424
+    }
+   ]
+  },
+  "Chla_ugL_mean": {
+   "coverage": {
+    "from": "2024-09-25",
+    "to": "2026-04-03"
+   },
+   "runs": 400,
+   "days": [
+    {
+     "day": 1,
+     "crpss": 61.45,
+     "lo": 48.33,
+     "hi": 71.14,
+     "n": 385
+    },
+    {
+     "day": 2,
+     "crpss": 54.84,
+     "lo": 40.83,
+     "hi": 65.32,
+     "n": 385
+    },
+    {
+     "day": 3,
+     "crpss": 49.33,
+     "lo": 34.68,
+     "hi": 60.51,
+     "n": 384
+    },
+    {
+     "day": 4,
+     "crpss": 43.78,
+     "lo": 27.86,
+     "hi": 56.07,
+     "n": 384
+    },
+    {
+     "day": 5,
+     "crpss": 39.03,
+     "lo": 22.45,
+     "hi": 52.03,
+     "n": 384
+    },
+    {
+     "day": 6,
+     "crpss": 34.51,
+     "lo": 17.08,
+     "hi": 48.47,
+     "n": 384
+    },
+    {
+     "day": 7,
+     "crpss": 29.79,
+     "lo": 11.07,
+     "hi": 44.83,
+     "n": 383
+    },
+    {
+     "day": 8,
+     "crpss": 25.86,
+     "lo": 5.88,
+     "hi": 41.43,
+     "n": 382
+    },
+    {
+     "day": 9,
+     "crpss": 22.5,
+     "lo": 1.35,
+     "hi": 38.86,
+     "n": 382
+    },
+    {
+     "day": 10,
+     "crpss": 18.9,
+     "lo": -3.54,
+     "hi": 35.58,
+     "n": 382
+    },
+    {
+     "day": 11,
+     "crpss": 16.78,
+     "lo": -6.36,
+     "hi": 33.47,
+     "n": 382
+    },
+    {
+     "day": 12,
+     "crpss": 14.2,
+     "lo": -10.42,
+     "hi": 31.13,
+     "n": 382
+    },
+    {
+     "day": 13,
+     "crpss": 11.76,
+     "lo": -13.43,
+     "hi": 29.58,
+     "n": 381
+    },
+    {
+     "day": 14,
+     "crpss": 9.48,
+     "lo": -17.01,
+     "hi": 27.64,
+     "n": 381
+    },
+    {
+     "day": 15,
+     "crpss": 6.92,
+     "lo": -21.34,
+     "hi": 24.73,
+     "n": 382
+    },
+    {
+     "day": 16,
+     "crpss": 4.32,
+     "lo": -24.97,
+     "hi": 23.11,
+     "n": 383
+    },
+    {
+     "day": 17,
+     "crpss": 2.4,
+     "lo": -27.8,
+     "hi": 21.71,
+     "n": 384
+    },
+    {
+     "day": 18,
+     "crpss": 0.96,
+     "lo": -29.71,
+     "hi": 20.49,
+     "n": 382
+    },
+    {
+     "day": 19,
+     "crpss": -1.46,
+     "lo": -34.81,
+     "hi": 17.98,
+     "n": 380
+    },
+    {
+     "day": 20,
+     "crpss": -3.37,
+     "lo": -37.94,
+     "hi": 16.49,
+     "n": 380
+    },
+    {
+     "day": 21,
+     "crpss": -5.03,
+     "lo": -40.24,
+     "hi": 15.23,
+     "n": 380
+    }
+   ]
+  }
+ }
+}
