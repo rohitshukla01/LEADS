@@ -1,0 +1,419 @@
+{
+ "answers": {
+  "SCI-01": {
+   "category": "science",
+   "channels_used": [
+    "literature"
+   ],
+   "channels_cited": [
+    "literature"
+   ]
+  },
+  "SCI-02": {
+   "category": "science",
+   "channels_used": [
+    "literature"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "tool_output"
+   ]
+  },
+  "SCI-03": {
+   "category": "science",
+   "channels_used": [
+    "literature"
+   ],
+   "channels_cited": [
+    "literature"
+   ]
+  },
+  "SCI-04": {
+   "category": "science",
+   "channels_used": [
+    "literature"
+   ],
+   "channels_cited": [
+    "literature"
+   ]
+  },
+  "SCI-05": {
+   "category": "science",
+   "channels_used": [
+    "literature"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "tool_output"
+   ]
+  },
+  "SCI-06": {
+   "category": "science",
+   "channels_used": [
+    "literature"
+   ],
+   "channels_cited": [
+    "literature"
+   ]
+  },
+  "SCI-07": {
+   "category": "science",
+   "channels_used": [
+    "literature",
+    "sensor"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "tool_output"
+   ]
+  },
+  "SCI-08": {
+   "category": "science",
+   "channels_used": [
+    "literature"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "tool_output"
+   ]
+  },
+  "SCI-09": {
+   "category": "science",
+   "channels_used": [
+    "literature"
+   ],
+   "channels_cited": [
+    "literature"
+   ]
+  },
+  "SCI-10": {
+   "category": "science",
+   "channels_used": [
+    "literature"
+   ],
+   "channels_cited": [
+    "literature"
+   ]
+  },
+  "DATA-01": {
+   "category": "data",
+   "channels_used": [
+    "sensor"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor"
+   ]
+  },
+  "DATA-02": {
+   "category": "data",
+   "channels_used": [
+    "sensor"
+   ],
+   "channels_cited": [
+    "sensor"
+   ]
+  },
+  "DATA-03": {
+   "category": "data",
+   "channels_used": [
+    "sensor"
+   ],
+   "channels_cited": [
+    "sensor"
+   ]
+  },
+  "DATA-04": {
+   "category": "data",
+   "channels_used": [
+    "sensor"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor"
+   ]
+  },
+  "DATA-05": {
+   "category": "data",
+   "channels_used": [
+    "sensor",
+    "tool_output"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "tool_output"
+   ]
+  },
+  "HYB-1": {
+   "category": "hybrid",
+   "channels_used": [
+    "forecast"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "forecast",
+    "tool_output"
+   ]
+  },
+  "HYB-2": {
+   "category": "hybrid",
+   "channels_used": [
+    "forecast"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "forecast",
+    "tool_output"
+   ]
+  },
+  "HYB-3": {
+   "category": "hybrid",
+   "channels_used": [
+    "literature",
+    "sensor",
+    "forecast",
+    "tool_output"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "forecast",
+    "tool_output"
+   ]
+  },
+  "HYB-4": {
+   "category": "hybrid",
+   "channels_used": [
+    "sensor",
+    "tool_output"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "forecast",
+    "tool_output"
+   ]
+  },
+  "HYB-5": {
+   "category": "hybrid",
+   "channels_used": [
+    "sensor",
+    "forecast",
+    "tool_output"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "forecast"
+   ]
+  },
+  "F1": {
+   "category": "forecast",
+   "channels_used": [
+    "forecast"
+   ],
+   "channels_cited": [
+    "sensor",
+    "forecast",
+    "tool_output"
+   ]
+  },
+  "F2": {
+   "category": "forecast",
+   "channels_used": [
+    "forecast"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "forecast",
+    "tool_output"
+   ]
+  },
+  "F3": {
+   "category": "forecast",
+   "channels_used": [
+    "forecast"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "forecast"
+   ]
+  },
+  "F4": {
+   "category": "forecast",
+   "channels_used": [
+    "sensor",
+    "forecast"
+   ],
+   "channels_cited": [
+    "sensor",
+    "forecast",
+    "tool_output"
+   ]
+  },
+  "F5": {
+   "category": "forecast",
+   "channels_used": [
+    "sensor",
+    "forecast",
+    "tool_output"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "forecast"
+   ]
+  },
+  "M1": {
+   "category": "management",
+   "channels_used": [
+    "literature",
+    "sensor",
+    "forecast",
+    "tool_output"
+   ],
+   "channels_cited": [
+    "sensor",
+    "forecast",
+    "tool_output"
+   ]
+  },
+  "M2": {
+   "category": "management",
+   "channels_used": [
+    "literature",
+    "sensor",
+    "forecast",
+    "tool_output"
+   ],
+   "channels_cited": [
+    "sensor",
+    "forecast",
+    "tool_output"
+   ]
+  },
+  "M3": {
+   "category": "management",
+   "channels_used": [
+    "sensor",
+    "tool_output"
+   ],
+   "channels_cited": [
+    "sensor",
+    "tool_output"
+   ]
+  },
+  "M4": {
+   "category": "management",
+   "channels_used": [
+    "sensor",
+    "forecast",
+    "tool_output"
+   ],
+   "channels_cited": [
+    "sensor",
+    "forecast",
+    "tool_output"
+   ]
+  },
+  "M5": {
+   "category": "management",
+   "channels_used": [
+    "literature",
+    "sensor",
+    "forecast",
+    "tool_output"
+   ],
+   "channels_cited": [
+    "literature",
+    "sensor",
+    "forecast",
+    "tool_output"
+   ]
+  }
+ },
+ "answers_per_type": {
+  "science": 10,
+  "data": 5,
+  "hybrid": 5,
+  "forecast": 5,
+  "management": 5
+ },
+ "answers_using_channel": {
+  "science": {
+   "literature": 10,
+   "sensor": 1,
+   "forecast": 0,
+   "tool_output": 0
+  },
+  "data": {
+   "literature": 0,
+   "sensor": 5,
+   "forecast": 0,
+   "tool_output": 1
+  },
+  "hybrid": {
+   "literature": 1,
+   "sensor": 3,
+   "forecast": 4,
+   "tool_output": 3
+  },
+  "forecast": {
+   "literature": 0,
+   "sensor": 2,
+   "forecast": 5,
+   "tool_output": 1
+  },
+  "management": {
+   "literature": 3,
+   "sensor": 5,
+   "forecast": 4,
+   "tool_output": 5
+  }
+ },
+ "answers_using_at_least_one": 30,
+ "answers_using_two_or_more": 12,
+ "answers_citing_channel": {
+  "science": {
+   "literature": 10,
+   "sensor": 4,
+   "forecast": 0,
+   "tool_output": 4
+  },
+  "data": {
+   "literature": 3,
+   "sensor": 5,
+   "forecast": 0,
+   "tool_output": 1
+  },
+  "hybrid": {
+   "literature": 5,
+   "sensor": 5,
+   "forecast": 5,
+   "tool_output": 4
+  },
+  "forecast": {
+   "literature": 3,
+   "sensor": 5,
+   "forecast": 5,
+   "tool_output": 3
+  },
+  "management": {
+   "literature": 1,
+   "sensor": 5,
+   "forecast": 4,
+   "tool_output": 5
+  }
+ },
+ "answers_citing_at_least_one": 30,
+ "answers_citing_two_or_more": 22
+}
