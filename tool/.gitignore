@@ -1,0 +1,28 @@
+# Secrets (API keys)
+.env
+.env.local
+.env*.local
+
+# Dependencies and build output
+node_modules/
+.next/
+/out/
+/build
+*.tsbuildinfo
+next-env.d.ts
+
+# Python caches
+**/__pycache__/
+*.pyc
+
+# Parsed-paper cache written by ingestion (regenerable)
+data/normalized-artifacts/
+
+# OS / logs / misc
+.DS_Store
+*.log
+npm-debug.log*
+.vercel
+
+# Office lock files
+~$*

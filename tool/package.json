@@ -1,0 +1,37 @@
+{
+  "name": "leads",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "init-qdrant": "npx tsx scripts/init-qdrant.ts",
+    "build-corpus-manifest": "npx tsx scripts/build-corpus-manifest.ts",
+    "ingest-corpus": "npx tsx scripts/ingest-corpus.ts",
+    "check": "tsc --noEmit && npx tsx scripts/check-public-paths.ts && npx tsx scripts/check-alias-matching.ts && npx tsx scripts/check-flare-do-units.ts && npx tsx scripts/check-horizon.ts && npx tsx scripts/check-ensemble-format.ts && npx tsx scripts/check-banner-in-evidence.ts && npx tsx scripts/check-skill-gating.ts && npx tsx scripts/check-threshold-disclosure.ts && npx tsx scripts/check-report-typesetting.ts && npx tsx scripts/check-citation-display.ts && npx tsx scripts/check-raptor-mode.ts && npx tsx scripts/check-verbatim-excerpts.ts && npx tsx scripts/check-prompt-and-listorder.ts && npx tsx scripts/check-citation-align.ts && npx tsx scripts/check-forecast-depth.ts && npx tsx scripts/check-answer-tidy.ts"
+  },
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.17.0",
+    "@supabase/ssr": "^0.12.0",
+    "@supabase/supabase-js": "^2.102.1",
+    "apache-arrow": "^21.1.0",
+    "cohere-ai": "^8.0.0",
+    "jspdf": "^4.2.1",
+    "next": "16.4.6",
+    "parquet-wasm": "^0.7.1",
+    "pdf-parse": "^1.1.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "sonner": "^2.0.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "tsx": "4.23.15",
+    "typescript": "^5"
+  }
+}
