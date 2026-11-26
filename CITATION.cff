@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use the code, data or framework in this repository, please cite it as below."
+title: "LEADS: Lake Ecosystem Agentic Decision Support"
+abstract: "LEADS (Lake Ecosystem Agentic Decision Support) is a forecast-informed research and decision-support system for drinking-water supply reservoirs."
+type: software
+authors:
+  - family-names: Shukla
+    given-names: Rohit
+    affiliation: Virginia Tech
+  - family-names: Carey
+    given-names: Cayelan C.
+    affiliation: Virginia Tech
+  - family-names: Thomas
+    given-names: R. Quinn
+    affiliation: Virginia Tech
+repository-code: "https://github.com/rohitshukla01/LEADS"
+date-released: 2026-11-20
+keywords:
+  - decision support
+  - large language model
+  - retrieval-augmented generation
+  - ecological forecasting
+  - water quality
+  - drinking-water reservoirs
+license: PolyForm-Noncommercial-1.0.0
