@@ -1,0 +1,215 @@
+{
+ "description": "The user profile each benchmark question was asked with, as recorded in the runs that wrote the saved answers. LEADS receives it with each question (leadsProfile in the request to /api/query; see tool/lib/leads/types.ts, LeadsProfile). persona, reservoir, depth and decision steer retrieval and decide whether an operating rule is tested; summary is a free-text label that the pipeline does not read.",
+ "profiles": {
+  "SCI-01": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "literature lookup"
+  },
+  "SCI-02": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "literature lookup"
+  },
+  "SCI-03": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "literature lookup"
+  },
+  "SCI-04": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "literature lookup"
+  },
+  "SCI-05": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "literature lookup"
+  },
+  "SCI-06": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "literature lookup"
+  },
+  "SCI-07": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "literature lookup"
+  },
+  "SCI-08": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "literature lookup"
+  },
+  "SCI-09": {
+   "persona": "researcher",
+   "reservoir": "bvr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "literature lookup"
+  },
+  "SCI-10": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "literature lookup"
+  },
+  "DATA-01": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "sensor lookup"
+  },
+  "DATA-02": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "hypolimnion",
+   "decision": "none",
+   "summary": "sensor lookup"
+  },
+  "DATA-03": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "metalimnion",
+   "decision": "none",
+   "summary": "sensor lookup"
+  },
+  "DATA-04": {
+   "persona": "researcher",
+   "reservoir": "bvr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "sensor lookup"
+  },
+  "DATA-05": {
+   "persona": "researcher",
+   "reservoir": "bvr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "sensor lookup"
+  },
+  "HYB-1": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "hypolimnion",
+   "decision": "none",
+   "summary": ""
+  },
+  "HYB-2": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": ""
+  },
+  "HYB-3": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "hypolimnion",
+   "decision": "none",
+   "summary": ""
+  },
+  "HYB-4": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": ""
+  },
+  "HYB-5": {
+   "persona": "manager",
+   "reservoir": "bvr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": ""
+  },
+  "F1": {
+   "persona": "manager",
+   "reservoir": "fcr",
+   "depth": "hypolimnion",
+   "decision": "none",
+   "summary": "forecast hypoxia risk"
+  },
+  "F2": {
+   "persona": "manager",
+   "reservoir": "bvr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "forecast chla bloom"
+  },
+  "F3": {
+   "persona": "researcher",
+   "reservoir": "fcr",
+   "depth": "hypolimnion",
+   "decision": "none",
+   "summary": "forecast temperature uncertainty"
+  },
+  "F4": {
+   "persona": "manager",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "forecast chla bloom probability"
+  },
+  "F5": {
+   "persona": "manager",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "none",
+   "summary": "forecast surface temp threshold"
+  },
+  "M1": {
+   "persona": "manager",
+   "reservoir": "fcr",
+   "depth": "hypolimnion",
+   "decision": "hypoxia_management",
+   "summary": "hypoxia decision"
+  },
+  "M2": {
+   "persona": "manager",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "algal_management",
+   "summary": "algae decision"
+  },
+  "M3": {
+   "persona": "manager",
+   "reservoir": "fcr",
+   "depth": "hypolimnion",
+   "decision": "water_extraction",
+   "summary": "water extraction depth"
+  },
+  "M4": {
+   "persona": "manager",
+   "reservoir": "fcr",
+   "depth": "epilimnion",
+   "decision": "flow_management",
+   "summary": "flow decision"
+  },
+  "M5": {
+   "persona": "manager",
+   "reservoir": "bvr",
+   "depth": "hypolimnion",
+   "decision": "hypoxia_management",
+   "summary": "BVR hypoxia decision"
+  }
+ }
+}
