@@ -1,0 +1,50 @@
+# Runs reproduce.sh on one of GitHub's Mac computers after each push to main that changes the checked files, and
+# passes only if it ends with "12 checks, 0 failed." The redrawn figures must match the saved ones, which use the
+# macOS Arial font, so this needs a Mac.
+name: check the results
+
+on:
+  push:
+    branches: [main]
+    paths:  # covers every file reproduce.sh reads, but not the .md folder guides
+      - reproduce.sh
+      - reproduce_paper/**
+      - '!reproduce_paper/**/*.md'
+      - tool/scripts/build-skill-table.py
+      - tool/lib/skill/forecast-skill.json
+      - .github/workflows/check-results.yml
+  workflow_dispatch:  # a run can also be started by hand from the Actions tab
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  check:
+    name: bash reproduce.sh
+    runs-on: macos-26
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
+        with:
+          python-version: "3.12"
+      - name: Run reproduce.sh; it must end with "12 checks, 0 failed."
+        run: |
+          bash reproduce.sh | tee "$RUNNER_TEMP/reproduce.txt"
+          test "$(tail -n 1 "$RUNNER_TEMP/reproduce.txt")" = "12 checks, 0 failed."
+      - name: Show the check logs
+        if: failure()
+        run: |
+          sw_vers
+          shasum -a 256 /System/Library/Fonts/Supplemental/Arial.ttf "/System/Library/Fonts/Supplemental/Arial Bold.ttf" || true
+          tail -n 30 .reproduce/logs/*.log || true
