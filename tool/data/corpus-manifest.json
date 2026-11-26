@@ -1,0 +1,448 @@
+{
+  "corpusVersion": "curated-2026-06-09",
+  "root": "<your copy of the literature corpus>",
+  "paperCount": 63,
+  "entries": [
+    {
+      "name": "Bauer2026_WaterQualityResJournal.pdf",
+      "relativePath": "Bauer2026_WaterQualityResJournal.pdf",
+      "sizeBytes": 1021711,
+      "modifiedAt": "2026-06-09T19:06:41.035Z",
+      "source": "curated"
+    },
+    {
+      "name": "Birgand2016_LimnolOceanogrMethods.pdf",
+      "relativePath": "Birgand2016_LimnolOceanogrMethods.pdf",
+      "sizeBytes": 863807,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Carey2018_EST.pdf",
+      "relativePath": "Carey2018_EST.pdf",
+      "sizeBytes": 2764792,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Carey2018_LimnolOceanogrLetters.pdf",
+      "relativePath": "Carey2018_LimnolOceanogrLetters.pdf",
+      "sizeBytes": 687288,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Carey2022_GlobalChangeBiology.pdf",
+      "relativePath": "Carey2022_GlobalChangeBiology.pdf",
+      "sizeBytes": 22771754,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Carey2022_InlandWaters.pdf",
+      "relativePath": "Carey2022_InlandWaters.pdf",
+      "sizeBytes": 3669069,
+      "modifiedAt": "2026-06-09T19:05:58.140Z",
+      "source": "curated"
+    },
+    {
+      "name": "Carey2026_Ecology.pdf",
+      "relativePath": "Carey2026_Ecology.pdf",
+      "sizeBytes": 15066984,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Chen2016_AFMC.pdf",
+      "relativePath": "Chen2016_AFMC.pdf",
+      "sizeBytes": 628264,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Chen2016_AHMT.pdf",
+      "relativePath": "Chen2016_AHMT.pdf",
+      "sizeBytes": 951956,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Chen2017_WaterResourcesResearch.pdf",
+      "relativePath": "Chen2017_WaterResourcesResearch.pdf",
+      "sizeBytes": 4042176,
+      "modifiedAt": "2026-06-09T19:07:21.588Z",
+      "source": "curated"
+    },
+    {
+      "name": "Chen2018_EcologicalEngineering.pdf",
+      "relativePath": "Chen2018_EcologicalEngineering.pdf",
+      "sizeBytes": 1045843,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Chen2018_WaterResourcesResearch.pdf",
+      "relativePath": "Chen2018_WaterResourcesResearch.pdf",
+      "sizeBytes": 3401414,
+      "modifiedAt": "2026-06-09T19:08:17.714Z",
+      "source": "curated"
+    },
+    {
+      "name": "Daneshmand2021_IEEEeScience.pdf",
+      "relativePath": "Daneshmand2021_IEEEeScience.pdf",
+      "sizeBytes": 1179287,
+      "modifiedAt": "2026-06-09T19:16:13.806Z",
+      "source": "curated"
+    },
+    {
+      "name": "Daw2020_SIAM.pdf",
+      "relativePath": "Daw2020_SIAM.pdf",
+      "sizeBytes": 1188562,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "deEyto2025_LimnolOceanogrLetters.pdf",
+      "relativePath": "deEyto2025_LimnolOceanogrLetters.pdf",
+      "sizeBytes": 2161566,
+      "modifiedAt": "2026-06-09T19:06:22.887Z",
+      "source": "curated"
+    },
+    {
+      "name": "Doubek2018_Ecosphere.pdf",
+      "relativePath": "Doubek2018_Ecosphere.pdf",
+      "sizeBytes": 3924091,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Doubek2019_Water.pdf",
+      "relativePath": "Doubek2019_Water.pdf",
+      "sizeBytes": 4680330,
+      "modifiedAt": "2026-06-09T19:02:30.204Z",
+      "source": "curated"
+    },
+    {
+      "name": "Gerling2014_WaterResearch.pdf",
+      "relativePath": "Gerling2014_WaterResearch.pdf",
+      "sizeBytes": 2406871,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Gerling2016_Ecosystems.pdf",
+      "relativePath": "Gerling2016_Ecosystems.pdf",
+      "sizeBytes": 3784669,
+      "modifiedAt": "2026-06-09T19:21:39.839Z",
+      "source": "curated"
+    },
+    {
+      "name": "Golub2022_GMD.pdf",
+      "relativePath": "Golub2022_GMD.pdf",
+      "sizeBytes": 2278815,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Hammond2023_WaterResearch.pdf",
+      "relativePath": "Hammond2023_WaterResearch.pdf",
+      "sizeBytes": 9335564,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Hamre2017_JPlanktonResearch.pdf",
+      "relativePath": "Hamre2017_JPlanktonResearch.pdf",
+      "sizeBytes": 930800,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Hamre2018_FreshwaterScience.pdf",
+      "relativePath": "Hamre2018_FreshwaterScience.pdf",
+      "sizeBytes": 951952,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Holthuijzen2024_arXiv.pdf",
+      "relativePath": "Holthuijzen2024_arXiv.pdf",
+      "sizeBytes": 3389444,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Hounshell2021_LimnolOceanogrLetters.pdf",
+      "relativePath": "Hounshell2021_LimnolOceanogrLetters.pdf",
+      "sizeBytes": 1715219,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Hounshell2023_JGRBiogeosciences.pdf",
+      "relativePath": "Hounshell2023_JGRBiogeosciences.pdf",
+      "sizeBytes": 5809226,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Hounshell2026_AquaticSciences.pdf",
+      "relativePath": "Hounshell2026_AquaticSciences.pdf",
+      "sizeBytes": 2553125,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Howard2021_AquaticSciences.pdf",
+      "relativePath": "Howard2021_AquaticSciences.pdf",
+      "sizeBytes": 3550156,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Howard2024_JGRBiogeosciences.pdf",
+      "relativePath": "Howard2024_JGRBiogeosciences.pdf",
+      "sizeBytes": 2060293,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Howard2025_ESSOAr.pdf",
+      "relativePath": "Howard2025_ESSOAr.pdf",
+      "sizeBytes": 3193010,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Krueger2020_WaterResearch.pdf",
+      "relativePath": "Krueger2020_WaterResearch.pdf",
+      "sizeBytes": 2840851,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Kurucz2024_WaterResourcesResearch.pdf",
+      "relativePath": "Kurucz2024_WaterResourcesResearch.pdf",
+      "sizeBytes": 2927902,
+      "modifiedAt": "2026-06-09T19:14:49.694Z",
+      "source": "curated"
+    },
+    {
+      "name": "Lewis2023_JGRBiogeosciences.pdf",
+      "relativePath": "Lewis2023_JGRBiogeosciences.pdf",
+      "sizeBytes": 2633627,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Lewis2024_JGRBiogeosciences.pdf",
+      "relativePath": "Lewis2024_JGRBiogeosciences.pdf",
+      "sizeBytes": 1984837,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Lewis2025_EcologyLetters.pdf",
+      "relativePath": "Lewis2025_EcologyLetters.pdf",
+      "sizeBytes": 2958256,
+      "modifiedAt": "2026-06-09T19:15:51.322Z",
+      "source": "curated"
+    },
+    {
+      "name": "Lewis2026_LimnolOceanogrLetters.pdf",
+      "relativePath": "Lewis2026_LimnolOceanogrLetters.pdf",
+      "sizeBytes": 10127458,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Lofton2019_Water.pdf",
+      "relativePath": "Lofton2019_Water.pdf",
+      "sizeBytes": 2950212,
+      "modifiedAt": "2026-06-09T19:02:10.795Z",
+      "source": "curated"
+    },
+    {
+      "name": "Lofton2022_FreshwaterBiology.pdf",
+      "relativePath": "Lofton2022_FreshwaterBiology.pdf",
+      "sizeBytes": 2962941,
+      "modifiedAt": "2026-06-09T19:11:07.213Z",
+      "source": "curated"
+    },
+    {
+      "name": "Lofton2025_ESSOAr.pdf",
+      "relativePath": "Lofton2025_ESSOAr.pdf",
+      "sizeBytes": 2023751,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Man2021_Water.pdf",
+      "relativePath": "Man2021_Water.pdf",
+      "sizeBytes": 2637437,
+      "modifiedAt": "2026-06-09T19:02:49.405Z",
+      "source": "curated"
+    },
+    {
+      "name": "Man2024_JSoilsSediments.pdf",
+      "relativePath": "Man2024_JSoilsSediments.pdf",
+      "sizeBytes": 1963569,
+      "modifiedAt": "2026-06-09T19:14:22.723Z",
+      "source": "curated"
+    },
+    {
+      "name": "McAfee2025_ESSD.pdf",
+      "relativePath": "McAfee2025_ESSD.pdf",
+      "sizeBytes": 3072614,
+      "modifiedAt": "2026-06-09T19:17:56.945Z",
+      "source": "curated"
+    },
+    {
+      "name": "McClure2018_SciTotalEnviron.pdf",
+      "relativePath": "McClure2018_SciTotalEnviron.pdf",
+      "sizeBytes": 3015319,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "McClure2020_JGRBiogeosciences.pdf",
+      "relativePath": "McClure2020_JGRBiogeosciences.pdf",
+      "sizeBytes": 3347179,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "McClure2021_Ecosystems.pdf",
+      "relativePath": "McClure2021_Ecosystems.pdf",
+      "sizeBytes": 1756354,
+      "modifiedAt": "2026-06-09T19:09:37.156Z",
+      "source": "curated"
+    },
+    {
+      "name": "McClure2021_FrontiersEnvironSci.pdf",
+      "relativePath": "McClure2021_FrontiersEnvironSci.pdf",
+      "sizeBytes": 2335110,
+      "modifiedAt": "2026-06-09T19:03:39.701Z",
+      "source": "curated"
+    },
+    {
+      "name": "Munger2016_WaterResearch.pdf",
+      "relativePath": "Munger2016_WaterResearch.pdf",
+      "sizeBytes": 3525312,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Munger2019_LakeReservoirManagement.pdf",
+      "relativePath": "Munger2019_LakeReservoirManagement.pdf",
+      "sizeBytes": 2956113,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Neog2025_ICML.pdf",
+      "relativePath": "Neog2025_ICML.pdf",
+      "sizeBytes": 737144,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Neog2026_TMLR.pdf",
+      "relativePath": "Neog2026_TMLR.pdf",
+      "sizeBytes": 3079704,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Olsson2024_WaterResourcesResearch.pdf",
+      "relativePath": "Olsson2024_WaterResourcesResearch.pdf",
+      "sizeBytes": 1637832,
+      "modifiedAt": "2026-06-09T19:11:26.189Z",
+      "source": "curated"
+    },
+    {
+      "name": "Park2024_IEEEeScience.pdf",
+      "relativePath": "Park2024_IEEEeScience.pdf",
+      "sizeBytes": 1998070,
+      "modifiedAt": "2026-06-09T19:17:41.042Z",
+      "source": "curated"
+    },
+    {
+      "name": "Shukla2026_JGRBiogeosciences.pdf",
+      "relativePath": "Shukla2026_JGRBiogeosciences.pdf",
+      "sizeBytes": 3107825,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Subratie2015_arXiv.pdf",
+      "relativePath": "Subratie2015_arXiv.pdf",
+      "sizeBytes": 298963,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Thomas2020_WaterResourcesResearch.pdf",
+      "relativePath": "Thomas2020_WaterResourcesResearch.pdf",
+      "sizeBytes": 2318989,
+      "modifiedAt": "2026-06-09T19:08:37.718Z",
+      "source": "curated"
+    },
+    {
+      "name": "Wander2024_Ecosphere.pdf",
+      "relativePath": "Wander2024_Ecosphere.pdf",
+      "sizeBytes": 8698964,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Wander2024_JPlanktonResearch.pdf",
+      "relativePath": "Wander2024_JPlanktonResearch.pdf",
+      "sizeBytes": 2205131,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Wander2025_ESSOAr.pdf",
+      "relativePath": "Wander2025_ESSOAr.pdf",
+      "sizeBytes": 14499240,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Weyhenmeyer2022_NatureCommunications.pdf",
+      "relativePath": "Weyhenmeyer2022_NatureCommunications.pdf",
+      "sizeBytes": 3323546,
+      "modifiedAt": "2026-05-30T06:49:45.493Z",
+      "source": "curated"
+    },
+    {
+      "name": "Woelmer2022_EcologicalApplications.pdf",
+      "relativePath": "Woelmer2022_EcologicalApplications.pdf",
+      "sizeBytes": 4835059,
+      "modifiedAt": "2026-06-09T19:10:12.390Z",
+      "source": "curated"
+    },
+    {
+      "name": "Woelmer2023_AquaticSciences.pdf",
+      "relativePath": "Woelmer2023_AquaticSciences.pdf",
+      "sizeBytes": 3784006,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Wood2026_WaterResearch.pdf",
+      "relativePath": "Wood2026_WaterResearch.pdf",
+      "sizeBytes": 7670189,
+      "modifiedAt": "2026-05-30T10:22:00.000Z",
+      "source": "curated"
+    },
+    {
+      "name": "Yang2021_GeophysResLett.pdf",
+      "relativePath": "Yang2021_GeophysResLett.pdf",
+      "sizeBytes": 3093457,
+      "modifiedAt": "2026-06-09T19:09:22.006Z",
+      "source": "curated"
+    }
+  ]
+}
