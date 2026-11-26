@@ -1,0 +1,14 @@
+# Python 3.12 to 3.14; enough to draw Figs 4 to 8 and print the numbers of Figs 5 and 6 (no API calls)
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.10.9
+pillow==13.0.0
+fonttools==4.68.0
+# the packages matplotlib needs, at the exact versions used for the saved figures
+contourpy==1.4.0
+cycler==0.12.1
+kiwisolver==1.5.1
+packaging==26.3
+pyparsing==3.3.3
+python-dateutil==4.0.0
+tzdata==2026.6
