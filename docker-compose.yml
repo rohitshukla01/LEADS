@@ -1,0 +1,9 @@
+# LEADS on your own computer, without sign-in (see DOCKER.md).
+#   cp docker.env.example .env      # then add your model key
+#   docker compose up --build       # then open http://localhost:3000
+services:
+  leads:
+    build: ./tool
+    env_file: .env
+    ports:
+      - "127.0.0.1:3000:3000"       # reachable from this computer only
