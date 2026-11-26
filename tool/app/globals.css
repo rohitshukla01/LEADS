@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* Design tokens: base colours (ivory paper, ink, muted text, rules and the navy-teal accent
+   of the LEADS logo) and font stacks. The fonts are loaded with next/font in app/layout.tsx. */
+:root {
+  --paper: #faf9f6;
+  --surface: #ffffff;
+  --ink: #1a1a18;
+  --muted: #54544e;
+  --rule: #e6e2d8;
+  --rule-strong: #d6d1c4;
+  --brand: #02436e;
+  --brand-soft: rgba(2, 67, 110, 0.07);
+  --serif: var(--font-serif), "Iowan Old Style", Georgia, serif;
+  --sans: var(--font-sans), -apple-system, "Segoe UI", system-ui, sans-serif;
+  --mono: var(--font-mono), ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; background: var(--paper); color: var(--ink); overflow: hidden; font-family: var(--sans); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+button, input, select, textarea { font-family: inherit; }
+:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+/* The forecast skill plot stays neutral when focused by keyboard (ink ring, no brand colour). */
+.skill-slider { outline: none; border-radius: 2px; }
+.skill-slider:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+.skill-card :focus-visible { outline-color: var(--ink); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 3px; height: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(168,162,152,0.18); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(168,162,152,0.35); }
+
+/* Pulse */
+@keyframes pulse { 0%,100%{opacity:0.9} 50%{opacity:0.3} }
+
+/* glowPulse: a slow fade (running pipeline steps, the PROCESSING badge); glowPulseCyan:
+   constant opacity (finished steps). */
+@keyframes glowPulse { 0%,100% { opacity: 1; } 50% { opacity: 0.6; } }
+@keyframes glowPulseCyan { 0%,100% { opacity: 1; } }
+
+/* Message entrance */
+@keyframes msgIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Pipeline step connector */
+@keyframes connectorFlow {
+  0%   { background-position: 0 0; }
+  100% { background-position: 0 20px; }
+}
+
+/* Respect the system "reduce motion" setting. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+}
